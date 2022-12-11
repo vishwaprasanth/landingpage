@@ -1,0 +1,542 @@
+body {
+		margin: 0;
+		padding: 0;
+		display: block;
+}
+.container{
+		margin: 0;
+		padding: 0;
+		display: block;
+}
+/* header */
+.header{
+		padding: 10px 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color:  white;
+		top: 0;
+		position: sticky;
+		z-index: 1;
+}
+.logo{
+		display: flex;
+}
+.logoimg{
+		width: 25px;
+}
+.logotext{
+		font-size: 25px;
+		font-weight: bold;
+		position: relative;
+		top: 10px;
+		left: 30px;
+}
+/* screen-1 */
+.home{
+		color: black;
+		font-weight: bold;
+}
+.menu{
+		padding: 0 40px 0 0;
+}
+.menu ul{
+		display: flex;
+		list-style: none;
+		gap: 25px;
+		color: #7D7987;
+		cursor: pointer;
+}
+.hash{
+		display: none;
+}
+.homescreen{
+		margin: 0 50px;
+		display: flex;
+		margin: 40px 0;
+		justify-content: center;
+		align-items: center;
+}
+.lefthome{
+		width: 50%;
+		margin: 0 50px;
+}
+.Heading{
+		font-size: 50px;
+		font-weight: 500;
+}
+.HomeScreen-text{
+		color: #7D7987;
+		margin: 10px 5px 0 5px;
+}
+.homebutton{
+		margin-top: 30px;
+		width: 120px;
+		text-align: center;
+		color: white;
+		background-color: #458FF6;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 20px;
+}
+.righthome{
+		width: 50%; 
+}
+.home-image{
+		width: 75%;
+}
+/* screen-2 */
+.service-screen{
+		margin-top: 10px;
+}
+.service-heading{
+		text-align: center;
+		font-size: 35px;
+}
+.survice-subheading{
+		margin: 40px;
+		padding: 0 30px;
+		color: #7D7987;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 300;
+}
+.service-containers{
+		padding: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+}
+.service{
+		background-color: white;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items:baseline;
+		width: 200px;
+		position: relative;
+		border-radius: 5px;
+		box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+.service-box-heading{
+		font-weight: bold;
+		padding-top: 24px;
+}
+.service-box-text{
+		color: hsl(257, 6%, 50%);
+}
+.servicebtn{
+		margin-left: 45%;
+		color: #458FF6;
+		font-weight: bold;
+		padding: 5px 15px;
+		border-radius: 15px;
+		background-color:white;
+		border:  1px solid #458FF6;
+		cursor: pointer;
+}
+/* screen-3 */
+.Ad-screen{
+		margin: 0 50px;
+		display: flex;
+		margin: 40px 0;
+		justify-content: center;
+		align-items: center;
+}
+.right_ad{
+		width: 50%;
+		margin: 0 60px;
+}
+.left_ad{
+		width: 50%;
+		margin: 0 50px;
+}
+.ad-img{
+		width: 75%;
+}
+.ad-heading{
+		font-size: 36px;
+		font-weight: 500;
+}
+.ad-screentext{
+		color: #7D7987;
+		margin: 10px 5px 0 5px;
+}
+.homebutton-ad{
+		margin-top: 30px;
+		width: 120px;
+		text-align: center;
+		background-color: white;
+		color: #458FF6;
+		padding: 5px 10px;
+		border: none;
+		border-radius: 20px;
+		border:  1px solid #458FF6;
+		cursor: pointer;
+}
+/* screen-4 */
+.app-screen{
+		display: flex;
+		margin: 40px 50px;
+		justify-content: center;
+		align-items: center;
+}
+.left-app{
+		width: 50%;
+		margin: 0 50px;
+}
+.app-heading{
+		font-size: 36px;
+		font-weight: 500;
+}
+.app-screentext{
+		color: #7D7987;
+		margin: 10px 5px 0 5px;
+}
+.homebutton-app{
+		margin-top: 30px;
+		width: 120px;
+		text-align: center;
+		background-color: white;
+		color: #458FF6;
+		padding: 5px 10px;
+		border: none;
+		border-radius: 20px;
+		border:  1px solid #458FF6;
+		cursor: pointer;
+}
+.right_app{
+		width: 50%;
+}
+.app-img{
+		width: 75%;
+}
+/* screen-5 */
+.card{
+		margin: 5% 15%;
+		background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+		border-radius: 15px;
+		padding: 20px 0;
+		color: rgba(255, 255, 255, 1);
+
+}
+.card-heading{
+		text-align: center;
+		font-size: 30px;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 1);
+}
+.review{
+		display: flex;
+}
+.card-left{
+		padding: 20px;
+		display: flex;
+}
+.detail-img{
+		width: 30%;
+		border-radius: 30px;
+		position: relative;
+		bottom: 15px;
+}
+.detail-heading{
+		font-size: 18px;
+		position: relative;
+		bottom: 5px;
+		gap: 10px;
+}
+.detail-subheading{
+		font-size: 15px;
+		position: relative;
+		bottom: 5px;
+		gap: 10px;
+}
+.card-right{
+		padding: 20px;
+}
+/* screen-6 */
+.article-heading{
+		text-align: center;
+		font-size: 35px;
+}
+.articles{
+		padding: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+}
+.article-1{
+		background-color: white;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items:baseline;
+		width: 170px;
+		position: relative;
+		border-radius: 5px;
+		box-shadow: 10px 40px 50px 0px #E5E9F666;
+}
+.article-img{
+		width: 200px;
+		position: relative;
+		right: 17px;
+		border-radius: 15px 15px 0 0;
+}
+.article-subheading{
+		font-weight: bold;
+		padding-top: 24px;
+}
+.article-text{
+		color: hsl(257, 6%, 50%);
+}
+.article-btn{
+		color: #458FF6;
+		font-weight: bold;
+		padding: 5px 15px;
+		border-radius: 15px;
+		background-color:white;
+		cursor: pointer;
+		border: 1px solid white;
+}
+.article-end-btn{
+		margin-left: 45%;
+		color: #458FF6;
+		font-weight: bold;
+		padding: 5px 15px;
+		border-radius: 15px;
+		background-color:white;
+		border:  1px solid #458FF6;
+		cursor: pointer;
+}
+.footer{
+		background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+		color: rgba(255, 255, 255, 1);
+		display: flex;
+		margin: 30px 10px;
+}
+.f-left-heading{
+	font-size: 25px;
+	padding: 30px;
+}
+.f-left-text{
+	padding: 5px 30px;
+}
+.f-copyright{
+	padding: 40px;
+}
+.footermenu{
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    margin: 20px;
+}
+.hash{
+	display: none;
+}
+.product ol li{
+    list-style: none;
+    line-height: 30px;
+}
+.footertitle{
+    font-weight: bold;
+	font-size: 20px;
+}
+
+
+/* media 768 */
+@media only screen and (max-width: 768px){
+	.header{
+		padding: 10px 50px;
+	}
+	.logoimg{
+		width: 20px;
+	}
+	.logotext{
+		font-size: 25px;
+		font-weight: bold;
+		position: relative;
+		top: 20px;
+		left: 35px;
+	}
+	.menu{
+		display: none;
+	}
+	.hash{
+		display: block;
+		font-weight: bold;
+		font-size: 40px;
+	}
+	/* screen-1 */
+	.homescreen{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.lefthome{
+        width: 100%;
+        height: 50%;
+		margin: 0 20px;
+    }
+	.Heading{
+		margin: 0 0 0 10%;
+		font-size: 65px;
+		font-weight: 600;
+	}
+	.HomeScreen-text{
+		font-size: 35px;
+		margin: 2% 0 0 10%;
+	}
+	.homebutton{
+		margin: 10% 0 0 40%;
+	}
+	.righthome{
+		width: 100%; 
+		margin: 30px;
+	}
+	.home-image{
+		width: 75%;
+		height: 50%;
+		margin: 0 0 0 10%;
+	}
+	.Ad-screen{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.ad-img{
+		width: 100%;
+	}
+	.left-app{
+		width: 75%;
+		margin: 0 50px;
+	}
+	.app-screen{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.app-heading{
+		font-size: 32px;
+		font-weight: 400;
+	}
+	.app-img{
+		width: 75%;
+		margin: 10%;
+		align-items: center;
+	} 
+	.right_app{
+		width: 100%;
+	}
+	.homebutton-app{
+		margin: 10% 0 0 20%;
+		width: 100px;
+	}
+	.review{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.detail-img{
+		width: 20%;
+		border-radius: 60px;
+		position: relative;
+		bottom: 15px;
+	}
+	.detail-heading{
+		font-size: 18px;
+		position: relative;
+		bottom: 5px;
+		left: 10px;
+		gap: 10px;
+	}
+	.detail-subheading{
+			font-size: 15px;
+			position: relative;
+			bottom: 5px;
+			left: 10px;
+			gap: 10px;
+	}
+	.article-heading{
+		text-align: center;
+		font-size: 25px;
+	}
+	.footermenu{
+		display: none;
+	}
+}
+
+
+/* media 500 */
+@media only screen and (max-width: 500px){
+	.hash{
+		display: block;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.Heading{
+		margin: 0 0 0 5%;
+		font-size: 55px;
+		font-weight: 600;
+	}
+	.HomeScreen-text{
+		font-size: 30px;
+		margin: 2% 0 0 5%;
+	}
+	.home-image{
+		width: 75%;
+		height: 50%;
+		margin: 0 0 0 5%;
+	}
+	.servicebtn{
+		margin-left: 40%;
+	}
+	.app-heading{
+		font-size: 25px;
+		font-weight: 400;
+	}
+	.card-heading{
+		text-align: center;
+		font-size: 25px;
+		font-weight: 500;
+	}
+	.article-heading{
+		text-align: center;
+		font-size: 20px;
+	}
+	
+
+}
+
+
+
+/* media 400 */
+@media only screen and (max-width: 400px){
+	.hash{
+		display: block;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.Heading{
+		font-size: 45px;
+		font-weight: 600;
+	}
+	.HomeScreen-text{
+		font-size: 25px;
+		margin: 2% 0 0 5%;
+	}
+	.homebutton{
+		margin: 10% 0 0 20%;
+	}
+	.homebutton-app{
+		margin: 10% 0 0 20%;
+		width: 80px;
+	}
+}
